@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #212121;
+    height: 100%;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 1200px;
+    padding: .5rem;
+    color: white;
+    overflow: hidden;
+    margin: 0 auto;
+}
